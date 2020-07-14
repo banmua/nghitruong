@@ -8,6 +8,18 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <h1>Welcome!</h1>
+    <Link to="/page-2/">Go to page 2</Link> <br />
+    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+
+    <div style={{marginTop: '20px'}}>(This site is currently under-construction</div>
+  </Layout>
+)
+
+
+const IndexPage2 = () => (
+  <Layout>
+    <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
